@@ -25,7 +25,7 @@ var app = {
       //  if (device.platform == 'android' || device.platform == 'Android') { 
             //alert("Register called"); 
             //tu Project ID aca!! 
-            pushNotification.register(this.successHandler, this.errorHandler,{"senderID":"542529208309","ecb":"app.onNotificationGCM"}); 
+            pushNotification.register(this.successHandler, this.errorHandler,{"senderID":"275015233935","ecb":"app.onNotificationGCM"}); 
        /* } 
         else { 
             alert("Register called"); 
@@ -87,7 +87,7 @@ var app = {
 
 function dispo(id){ //si ya exist o no un dispositivo con la clave
 
-archivoValidacion = "http://www.wabes.com.ar/lidera/dispositivos.php?jsoncallback=?"
+archivoValidacion = "http://www.tiempopopular.com.ar/json/dispositivos.php?jsoncallback=?"
 					$.getJSON( archivoValidacion, {id:id})
 					.done(function(data) 
 					{ 
