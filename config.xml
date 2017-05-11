@@ -68,7 +68,10 @@
 	
 	<gap:platform name="blackberry" />
 	<gap:platform name="winphone" />
-		<gap:plugin name="phonegap-plugin-push" source="npm" />
+	<preference name="android-build-tool" value="gradle" />
+<plugin name="phonegap-plugin-push" source="npm">
+    <param name="SENDER_ID" value="275015233935" />
+</plugin>
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
 
 
